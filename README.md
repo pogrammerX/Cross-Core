@@ -1,8 +1,8 @@
-#About CrossCore
+# About CrossCore
 CrossCore is an script programming language for Windows maybe i add MacOS/Linux support in the Future!
 
-#---Documentation---
-#How to Download CrossCore
+# ---Documentation---
+# How to Download CrossCore
 
 1. Download CrossCore
 2. Put The Somewhere(They need to be in the same directory)
@@ -16,7 +16,7 @@ CrossCore is an script programming language for Windows maybe i add MacOS/Linux 
 10. Select the exe
 11. You have now successfully setuped CrossCore
 
-#How to use CrossCore
+# How to use CrossCore
 
 In your .cco file you can basically do these commands:
 
