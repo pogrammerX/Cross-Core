@@ -1,6 +1,9 @@
 # About CrossCore
 CrossCore is an script programming language for Windows maybe i add MacOS/Linux support in the Future!
 
+# Developers
+[David Gerson](https://github.com/pogrammerX)
+
 # ---Documentation---
 # How to Download CrossCore
 
