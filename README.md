@@ -20,14 +20,14 @@ CrossCore is an script programming language for Windows maybe i add MacOS/Linux 
 
 In your .cco file you can basically do these commands:
 
-print <Message/Variable> - Prints an message in the Console
+print (Message/Variable) - Prints an message in the Console
 
-title <Title> - Sets the console Title
+title (Title) - Sets the console Title
   
 ::WaitForUserKeyPress - Waits until the user presses a key(WARNING: Always put this at the end of your script!)
   
 Varibles:
   
-$<VarName> - Creates an variable
+$(VarName) - Creates an variable
   
-_<VarName> <Value> - Sets an variable value
+_(VarName) (Value) - Sets an variable value
