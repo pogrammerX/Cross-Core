@@ -21,7 +21,7 @@ CrossCore is an script programming language for Windows maybe i add MacOS/Linux 
 
 # How to use CrossCore
 
-In your .cco file you can basically do these commands:
+In your .cco file you can run these commands:
 
 print (Message/Variable) - Prints an message in the Console
 
