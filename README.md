@@ -1,5 +1,6 @@
 # NEW things in CrossCore
-(NEW) File Management(C#: System.IO)
+(NEW) File Writing/Reading/Creating/Deleting
+(NEW) Comments
 
 # About CrossCore
 CrossCore is an script programming language for Windows maybe i add MacOS/Linux support in the Future!
@@ -82,5 +83,22 @@ _(VarName) (Value) - Sets an variable value
   dfile C:\Users\Public\Desktop\HelloWorld.txt
   ```
   
-  Thsi will delete the HelloWorld File
+  This will delete the HelloWorld File
+  
+  You can do that with All you learned above
+  ```occ
+  //Create Some files
+  _NextIOWrite Hey!
+  wfile C:\Hey.txt
+  _NextIOWrite This an text!
+  wfile C:\Text.txt
+  _NextIOWrite You will never be able to see this text!
+  wfile C:\TextNotSeeable.txt
+  //Set the text of a file to a new text
+  _NextIOWrite I told you!
+  afile C:\TextNotSeeable.txt
+  //Delete some files
+  dfile C:\Hey.txt
+  dfile C:\Text.txt
+  ```
   
