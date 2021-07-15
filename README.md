@@ -1,7 +1,5 @@
 # NEW things in CrossCore
-(NEW) File Writing/Reading/Creating/Deleting
-
-(NEW) Comments
+(NEW) Directory Creation/Deleting
 
 # About CrossCore
 CrossCore is an script programming language for Windows maybe i add MacOS/Linux support in the Future!
@@ -30,17 +28,21 @@ In your .cco file you can run these commands:
 
 print (Message/Variable) - Prints an message in the Console
 
-wfile <Path> - Writes an file With the value of the NextIOWrite variable
+wfile (Path) - Writes an file With the value of the NextIOWrite variable
   
-rfile <Path> - Reads an File and puts the file content the the LastIORead Varible
+rfile (Path) - Reads an File and puts the file content the the LastIORead Varible
   
-cfile <Path> - Creates an file with no content
+cfile (Path) - Creates an file with no content
   
-afile <Path> - Applys the value of NextIOWrite to the file
+afile (Path) - Applys the value of NextIOWrite to the file
   
-dfile <Path> - Deletes an file
+dfile (Path) - Deletes an file
 
 title (Title) - Sets the console Title
+  
+cdir (Path) - Creates an Directory
+
+ddir (Path) - Deletes an directory
   
 ::WaitForUserKeyPress - Waits until the user presses a key(WARNING: Always put this at the end of your script!)
   
