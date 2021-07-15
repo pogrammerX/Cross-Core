@@ -55,3 +55,32 @@ Varaible: LastIORead - The text of the last file read (This variable is always C
 $(VarName) - Creates an variable
   
 _(VarName) (Value) - Sets an variable value
+
+  # Code-Examples 
+  Writing An file
+  
+  ```occ
+  _NextIOWrite Hello, World!
+  
+  wfile C:\Users\Public\Desktop\HelloWorld.txt
+  ``` 
+  
+  This will create an File With the content: Hello, World!
+  
+  Reading An file
+  
+  ```occ
+  rfile C:\Users\Public\Desktop\HelloWorld.txt
+  
+  print _LastIORead
+  ```
+  
+  This will print out: Hello, World!
+  If you didnt change the Content of the HelloWorld File
+  
+  ```occ
+  dfile C:\Users\Public\Desktop\HelloWorld.txt
+  ```
+  
+  Thsi will delete the HelloWorld File
+  
