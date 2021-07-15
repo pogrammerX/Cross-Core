@@ -45,8 +45,11 @@ title (Title) - Sets the console Title
 Varibles:
 
 ---IO---
+  
 Varaible: NextIOWrite - The text of the next file to write (This variable is always Created no need for $NextIOWrite)
+  
 Varaible: LastIORead - The text of the last file read (This variable is always Created no need for $LastIORead)
+  
 ---IO---
   
 $(VarName) - Creates an variable
