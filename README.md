@@ -8,7 +8,7 @@ CrossCore is an script programming language for Windows maybe i add MacOS/Linux 
 # How to Download CrossCore
 
 1. Download CrossCore
-2. Put The Somewhere(They need to be in the same directory)
+2. Put The files Somewhere(They need to be in the same directory)
 3. Copy The Path where you put CrossCore.exe
 4. Create an .cco file
 5. Open It
